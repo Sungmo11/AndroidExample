@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/stringMenu"
+        android:title="StringTest"
+        />
+    <item
+        android:id="@+id/jsonMenu"
+        android:title="JsonTest"
+        />
+    <item
+        android:id="@+id/popupMenu"
+        android:title="PopupTest"
+        />
+    <item
+        android:id="@+id/timerMenu"
+        android:title="TimerMenu"
+        />
+    <item
+        android:id="@+id/timerThreadMenu"
+        android:title="TimerThreadMenu"
+        />
+    <item
+        android:id="@+id/fragmentMenu"
+        android:title="FragmentMenu"
+        />
+    <item
+        android:id="@+id/scrollView"
+        android:title="ScrollView"
+        />
+</menu>

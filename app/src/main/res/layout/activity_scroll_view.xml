@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ScrollViewActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_scroll1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="scroll1"
+                android:onClick="testScroll"
+                />
+
+            <Button
+                android:id="@+id/btn_scroll2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="scroll2"
+                android:onClick="testScroll"
+                />
+
+            <Button
+                android:id="@+id/btn_scroll3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="scroll3"
+                android:onClick="testScroll"
+                />
+
+            <Button
+                android:id="@+id/btn_scroll4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="scroll4"
+                android:onClick="testScroll"
+                />
+
+            <Button
+                android:id="@+id/btn_scroll5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="scroll5"
+                android:onClick="testScroll"
+                />
+
+            <Button
+                android:id="@+id/btn_scroll6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="scroll6"
+                android:onClick="testScroll"
+                />
+
+            <Button
+                android:id="@+id/btn_scroll7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="scroll7"
+                android:onClick="testScroll"
+                />
+
+            <Button
+                android:id="@+id/btn_scroll8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="scroll8"
+                android:onClick="testScroll"
+                />
+
+            <Button
+                android:id="@+id/btn_scroll9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="scroll9"
+                android:onClick="testScroll"
+                />
+
+            <Button
+                android:id="@+id/btn_scroll10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="scroll10"
+                android:onClick="testScroll"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#111111"
+        android:text="1"
+        />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScroll"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_horiscroll1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horiscroll1"
+                android:onClick="testHori"
+                />
+
+            <Button
+                android:id="@+id/btn_horiscroll2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horiscroll2"
+                android:onClick="testHori"
+                />
+
+            <Button
+                android:id="@+id/btn_horiscroll3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horiscroll3"
+                android:onClick="testHori"
+                />
+
+            <Button
+                android:id="@+id/btn_horiscroll4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horiscroll4"
+                android:onClick="testHori"
+                />
+
+            <Button
+                android:id="@+id/btn_horiscroll5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horiscroll5"
+                android:onClick="testHori"
+                />
+
+            <Button
+                android:id="@+id/btn_horiscroll6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horiscroll6"
+                android:onClick="testHori"
+                />
+
+            <Button
+                android:id="@+id/btn_horiscroll7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horiscroll7"
+                android:onClick="testHori"
+                />
+
+            <Button
+                android:id="@+id/btn_horiscroll8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horiscroll8"
+                android:onClick="testHori"
+                />
+
+            <Button
+                android:id="@+id/btn_horiscroll9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horiscroll9"
+                android:onClick="testHori"
+                />
+
+            <Button
+                android:id="@+id/btn_horiscroll10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horiscroll10"
+                android:onClick="testHori"
+                />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_below="@+id/horizontalScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_hori"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:text="Hori"
+            />
+
+        <TextView
+            android:id="@+id/tv_scroll"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:text="Scroll"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

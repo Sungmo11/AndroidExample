@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/activity_popup"
+    tools:context=".activity.PopupTestActivity">
+
+    <Button
+        android:id="@+id/popupBtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="길게 눌러라!!!"
+        />
+
+    <Button
+        android:id="@+id/popupBtn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="짧게 눌러라!!!"
+        />
+
+</LinearLayout>
